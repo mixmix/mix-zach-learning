@@ -39,7 +39,7 @@ module.exports = function SSB (opts = {}) {
   // 3. cycle through a series of different connections to discover more messages
   // outstanding question: getStatus progress stuck?
 
-    .use(require('ssb-replication-scheduler'))
+  // .use(require('ssb-replication-scheduler'))
     .use(require('ssb-blobs'))
     .use(require('ssb-serve-blobs'))
 
